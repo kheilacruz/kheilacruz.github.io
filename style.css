@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+/* Eric Meyer CSS Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* CSS Reset Ends */
+
+body{
+    font-family: 'Merriweather', serif;
+    font-size:  19px;
+    font-weight: 300;
+    line-height: 1.3888;
+
+    background: url(../images/wallpaper5.jpg);
+
+}
+
+h1{
+    font-size: 300%;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+p{
+    color: dimgrey;
+}
+.align-left{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.align-right{
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+a{
+    color: darkorange;
+    text-decoration: none;
+}
+
+ul{
+    list-style: square;
+    margin-left: 50px;
+}
+
+#wrapper{
+    max-width: 960px;
+    /*        T    R   B    L   */
+    margin: 20px auto 60px auto;
+}
